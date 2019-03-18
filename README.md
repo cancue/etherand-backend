@@ -7,10 +7,15 @@ $ npm install
 
 ### Hot-reloads for development
 ```
-$ npm run start
+$ npm run serve
 ```
 
 ### Lints
 ```
 $ npm run lint
+```
+
+### Build
+```
+$ npm run build
 ```

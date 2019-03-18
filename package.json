@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "main": "src/main.js",
   "scripts": {
-    "start": "babel-watch ./src/main",
+    "start": "node ./dist/src/main",
+    "serve": "babel-watch ./src/main",
+    "build": "babel src --out-dir dist/src && babel functions --out-dir dist/functions",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/*.js src/**/*.js"
   },
