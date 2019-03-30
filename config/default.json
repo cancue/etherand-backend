@@ -1,3 +1,4 @@
 {
-  "RPC_SERVER": "wss://mainnet.infura.io/ws"
+  "RPC_SERVER": "wss://mainnet.infura.io/ws",
+  "RPC_SERVER_LOCAL": "ws://localhost:8545"
 }

@@ -12,4 +12,5 @@ console.log(`
   Press ${chalk.yellow.bold("CTRL-C")} to stop
 `)
 
+
 functions()
